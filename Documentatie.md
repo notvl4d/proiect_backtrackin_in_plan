@@ -168,5 +168,7 @@ int main() {
 
 ## Concluzii
 
+
 ## Webografie
 - [pbinfo](https://www.pbinfo.ro)
+- [Manual Informatica clasa a 11a](https://manuale.edu.ro/manuale/Clasa%20a%20XI-a/Informatica/Corint/A376.pdf)
