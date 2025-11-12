@@ -1,12 +1,12 @@
 # Documentatie
 
 ## Cuprins
-- [Descrierea temei](./Documentatie.md#descrierea-temei)
-- [Limbajul de programare utilizat](./Documentatie.md#limbaj-de-programare-utilizat)
-- [Cerintele sistemului](./Documentatie.md#cerintele-sistemului)
-- [Descrierea programului](./Documentatie.md#descrierea-programului)
-- [Concluzii](./Documentatie.md#concluzii)
-- [Webografie](./Documentatie.md#webografie)
+- [Descrierea temei](./README.md#descrierea-temei)
+- [Limbajul de programare utilizat](./README.md#limbaj-de-programare-utilizat)
+- [Cerintele sistemului](./README.md#cerintele-sistemului)
+- [Descrierea programului](./README.md#descrierea-programului)
+- [Concluzii](./README.md#concluzii)
+- [Webografie](./README.md#webografie)
 
 ## Descrierea temei
 Pe un teren de dimensiune dreptunghiulara, cu denivelari, se afla un sporitv care doreste sa se antreneze pentru un concurs de alpinism. Cunoscand altitudinea fiecarei portiuni de teren, pozitia initiala a alpinistului, si pozitia finala in care doreste sa ajunga, sa se determine un traseu pentru care suma diferentelor de altitudine intre pozitiile consecutive de pe traseu sa fie maxima. Alpinistul nu are voie coboare.
