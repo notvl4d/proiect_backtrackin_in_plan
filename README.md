@@ -25,7 +25,7 @@ Pentru a rula programul, avem neovie de:
 Incepem prin a declara variabilele (precum dimensiunile matricei, matricea propriu-zisa, vectorii de solutie, pozitia initiala, pozitia finala, vectorii de deplasare si alte variabile folosite pentru rezolvarea problemei) globale:
 
 ```cpp
-int n, m, a[25][25], sol_i[1000], sol_j[1000], sol_len, s_max = 0;
+int n, m, a[25][25], sol_i[1000], sol_j[1000], sol_fin_i[1000], sol_fin_j[1000], sol_len, s_max = 0;
 int poz_init_I, poz_init_J;
 int poz_fin_I, poz_fin_J;
 
@@ -81,7 +81,7 @@ void back(int i, int j, int suma, int pas) {
         for(int k = 0; k < 8; k++) {
             int vi = i + di[k];
             int vj = j + dj[k];
-            if(0<=vi && vi<=n && 0<=vj && vj<=m) {
+            if(1<=vi && vi<=n && 1<=vj && vj<=m) {
                 if(a[vi][vj] >= a[i][j])
                     back(vi, vj, suma + a[vi][vj] - a[i][j], pas + 1);
             }
@@ -150,7 +150,7 @@ void back(int i, int j, int suma, int pas) {
         for(int k = 0; k < 8; k++) {
             int vi = i + di[k];
             int vj = j + dj[k];
-            if(0<=vi && vi<=n && 0<=vj && vj<=m) {
+            if(1<=vi && vi<=n && 1<=vj && vj<=m) {
                 if(a[vi][vj] >= a[i][j])
                     back(vi, vj, suma + a[vi][vj] - a[i][j], pas + 1);
             }
